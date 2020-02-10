@@ -4,6 +4,14 @@
 	<meta charset="UTF-8" />
 	<title>CSS Selectors</title>
 	<link rel="stylesheet" href="styles.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
+	</script>
+	<script>
+		$(document).ready(function(){
+			  $("p:nth-of-type(2)").css("background-color",  "yellow");
+			  $("p:nth-of-type(3)").css("background-color",  "yellow");
+		});
+	</script>
 </head>
 <body>
 
